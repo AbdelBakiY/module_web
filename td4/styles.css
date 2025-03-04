@@ -1,0 +1,197 @@
+/*  couleur de la page  */ 
+
+body {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white; 
+}
+
+
+/*  placement de menu   */ 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/*  personnaliser le menu  */  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8); /* Blanc avec une opacitÃ© de 0.8 */
+}
+
+/*  couleur , emplacement et taille de titre h1  */  
+ h1{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2.5em;
+    margin: 0; 
+    text-align: center; 
+}
+
+
+
+
+
+
+
+/* le footer de la page */
+
+.pied-page {
+    text-align: left;
+    padding: 20px;
+    background-color: #0d0d0d86;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #737171;
+}
+
+.pied-page dl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pied-page dl li {
+    margin-bottom: 5px;
+}
+
+.infos-contact {
+    margin-left: auto;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.lien-email {
+    text-decoration: none;
+}
+
+.lien-email img {
+    width: 20px; 
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.personnages-section {
+    text-align: justify;
+}
+
+.personnage {
+    margin-bottom: 20px;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bac2.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    overflow-y: auto; /* Activer le dÃ©filement vertical si le contenu dÃ©passe la fenÃªtre */
+
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2.5em;
+    margin: 0; 
+    text-align: center; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav a:hover {
+    color: #eb1dd9; /* Couleur au survol */
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+}
+#c{color:#eb1dd9 }
+.img{
+    float: right;
+}
+h2{
+    color:#d31deb;
+}
+.pied-page {
+    text-align: left;
+    padding: 20px;
+    background-color: #c74ab286;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.infos-contact {
+    margin-left: auto;
+}
+.pied-page dl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pied-page dl li {
+    margin-bottom: 5px;
+}
+nav li {
+    margin-right: 15px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8); /* Blanc avec une opacitÃ© de 0.8 */
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
